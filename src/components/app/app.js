@@ -9,8 +9,8 @@ import './app.css';
 function App() {
 
   const data = [
-    { name: 'Pavel Babanin', salary: 2000, increase: true, id: 1 },
-    { name: 'Roman Stepanovskyi', salary: 2000, increase: false, id: 2 },
+    { name: 'Pavel Babanin', salary: 2000, increase: false, id: 1 },
+    { name: 'Roman Stepanovskyi', salary: 2000, increase: false, id: 2},
     { name: 'Andrew Belan', salary: 2000, increase: false, id: 3 },
   ];
 
@@ -22,7 +22,6 @@ function App() {
             <SearchPanel/>
             <AppFilter/>
         </div>
-        
         <EmployeesList data={data} />
         <EmployeesAddForm/>
     </div>
